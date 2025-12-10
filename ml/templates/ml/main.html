@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Don't be a fish{% endblock %}</title>
+
+
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/lux/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Projekt inżynierski - Mateusz Michałowski</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+    <style>
+            body {
+                background-color: #f0f0f0;
+                /* albo obrazek: */
+                /* background-image: url('/static/img/background.jpg'); */
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+    </style>
+    
+</body>
+
+
+    {% block content %}
+
+    {% endblock %}
+
+</html>

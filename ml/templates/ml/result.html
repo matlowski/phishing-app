@@ -1,0 +1,27 @@
+{% extends "ml/main.html" %}
+
+{% block content %}
+
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center; margin-top: 20px;">
+    <h2>Don’t be a fish.</h2>
+    <h2>Verify your .eml file!</h2>
+    <i class="fa fa-arrow-down fa-10x" aria-hidden="true"></i>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <div style="text-align: center;">
+        {% if response %}
+            <h2 style="color: green;">This is NOT phishing.</h2>
+        {% else %}
+            <h2 style="color: red;">Warning: This is phishing!</h2>
+        {% endif %}
+
+        <a href="{% url 'home' %}" class="btn btn-primary" style="margin-top: 20px;">Back to Home</a>
+    </div>
+
+{% endblock %}
