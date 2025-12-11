@@ -1,6 +1,6 @@
 # phishing-app
 
-tutaj daj jakiś obrazek
+![Opis obrazka](images/nazwa_pliku.png)
 
 Aby uruchomić środowisko projektowe należy mieć na swojej maszynie zainstalowane zintegrowane środowisko programistyczne (np. PyCharm) lub edytor kodu (np. Visual Studio Code) i następnie:
 1. Zainstalować na swojej maszynie lokalnej najnowszą wersję pythona. Można to zrobić pobierając go z oficjalnej strony: https://www.python.org/ .
