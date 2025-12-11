@@ -27,8 +27,7 @@ Aby uruchomić środowisko projektowe należy mieć na swojej maszynie zainstalo
 7. Utworzyć darmowe konta w serwisach Virustotal: https://www.virustotal.com/gui/home/upload oraz abuseipdb: https://www.abuseipdb.com/ w celu wygenerowania kluczy API, które następnie należy umieścić w wyznaczonym miejscu w kodzie w pliku 'views.py'. 
 
 8. Uruchomić serwer lokalny poleceniem:
-
-  $ python manage.py runserver
+$ python manage.py runserver
 
 10. W celu odwiedzenia strony wkleić w przeglądarce poniższy link:
 
