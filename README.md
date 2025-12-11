@@ -25,6 +25,4 @@ Aby uruchomić środowisko projektowe należy mieć na swojej maszynie zainstalo
    
    $ python manage.py runserver
 
-10. W celu odwiedzenia strony wkleić w przeglądarce poniższy link:
-
-   $ http://127.0.0.1:8000/
+10. W celu odwiedzenia strony wkleić w przeglądarce link: http://127.0.0.1:8000/
